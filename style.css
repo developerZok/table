@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    /* width: 1140px; */
+    margin: 0 auto;
+}
+table{
+    width: 60%;
+    border-collapse: collapse;
+    text-align: center;
+    transform: translateY(50%);
+    margin: 0 auto;
+}
+table, td, th{
+    border: 1px solid black;
+}
+th{
+    height: 70px;
+}
+td{
+    height: 40px;
+}
+table :nth-child(5){
+    border-collapse: collapse;
+}
